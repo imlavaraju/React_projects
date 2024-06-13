@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+}
+
+.stopwatch-container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.time-display {
+  font-size: 48px;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.control-button {
+  background: #2575fc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.control-button:hover {
+  background: #6a11cb;
+}
+
+.log {
+  text-align: left;
+}
+
+.log h3 {
+  margin: 0 0 10px 0;
+}
+
+.log ul {
+  list-style: none;
+  padding: 0;
+}
+
+.log li {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
