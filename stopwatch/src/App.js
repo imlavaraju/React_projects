@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "./index.css";
+import "./App.css";
 
 const App = () => {
   const [time, setTime] = useState(0);
